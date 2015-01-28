@@ -43,3 +43,5 @@ Temporary Items
 .apdisk
 *.idea
 target
+/mysql-connector-java-5.1.29-bin.jar
+/mysql-connector-license.txt
