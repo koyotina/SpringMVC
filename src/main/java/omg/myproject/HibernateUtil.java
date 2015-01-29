@@ -13,7 +13,7 @@ public class HibernateUtil {
     private static final Logger log = Logger.getLogger(HibernateUtil.class);
 
     private static final SessionFactory sessionFactory;
-    static {
+    static {            7
         try {
             sessionFactory = new AnnotationConfiguration()
                     .configure("/hibernate.cfg.xml")
